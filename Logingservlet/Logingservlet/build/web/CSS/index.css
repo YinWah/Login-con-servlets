@@ -1,0 +1,55 @@
+html{
+    height: 100%;
+    margin: 0px;
+}
+
+body{
+    height: 100%;
+    margin: 0px;
+    background-repeat:  no-repeat;
+    background-size: 100%;
+}
+.A{
+    float: left;
+    width: 33.3%;
+    height: 100%;
+}
+.B{
+   float: left;
+    width: 33.3%;
+    height: 100%; 
+}
+.C{
+    float: left;
+    width: 33.3%;
+    height: 100%;
+}
+
+input[type="text"]{
+    display: block;
+    background: #ffffff;
+    color:  #000000;
+    margin: auto;
+    width: 95%;
+    height: 2.5em;
+    align-content: center;
+    border-radius: 0.5em;
+    margin: 3%;
+    padding: 3%;
+    box-sizing: border-box;
+    
+}
+.centrar{
+    text-align: center;
+    font-size: 2.1em;
+}
+input[type="submit"]{
+    margin: auto;
+    display: block;
+    box-sizing: border-box;
+    width: 25%;
+    height: 1.5em;
+}
+input[type="submit"]:hover{
+    background:  #66ffff;
+}
